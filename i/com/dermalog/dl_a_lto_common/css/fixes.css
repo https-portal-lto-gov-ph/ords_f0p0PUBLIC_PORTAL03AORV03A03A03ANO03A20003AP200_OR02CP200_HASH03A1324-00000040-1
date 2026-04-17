@@ -1,0 +1,7 @@
+/* input field bug in chrome - causes fields to become white and changes are not seen */
+.apex-item-select,
+.apex-item-text,
+.apex-item-textarea,
+.apex-item-multi {
+  backface-visibility: hidden;
+}
